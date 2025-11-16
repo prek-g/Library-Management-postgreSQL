@@ -13,12 +13,19 @@ A PostgreSQL-based analytics project built on a six-table library management dat
 ## Tasks that will be done in this project.
 
 Task 1. Listing Members Who Have Issued More Than One Book
+
 Task 2. Creating a Summary Table using CTAS to generate new tables based on query results - each book and total book_issued_cnt
+
 Task 3. Same as Task 2 but no without an inner join and I will not make a CTAS table
+
 Task 4. Finding Total Rental Income by Category
+
 TASK 5. Listing Members Who Registered in the Last 180 Days
+
 Task 6. Listing Employees with Their Branch Manager's NAME and their branch details (branch.*)- a short way to say all columns of the branch table
+
 Task 7. Creating a Table of Books with Rental Price Above a Certain Threshold
+
 Task 8. Retrieving the List of Books Not Yet Returned 
 
 Task 9. Identifying Members with Overdue Books**  
@@ -409,3 +416,4 @@ SELECT
 	'$' || ' ' || 0.50 * Overdue AS total_fines
 	FROM data ;
 ```
+
